@@ -33,3 +33,15 @@ const kTextFieldDecoration = InputDecoration(
     borderRadius: BorderRadius.all(Radius.circular(32.0)),
   ),
 );
+
+const kOtherBubblePointer = BorderRadius.only(
+  topRight: Radius.circular(30),
+  bottomLeft: Radius.circular(30),
+  bottomRight: Radius.circular(30),
+);
+
+const kMeBubblePointer = BorderRadius.only(
+  topLeft: Radius.circular(30),
+  bottomLeft: Radius.circular(30),
+  bottomRight: Radius.circular(30),
+);
